@@ -1,0 +1,49 @@
+<div class="header" ion-fixed>
+  <button class="backbutton" (click)="openPageBack(pages.menus.items[0])" ion-button clear>
+    <img src="assets/images/bgback.jpg">
+  </button>
+</div>
+
+<ion-scroll scrollY="true">
+  <h1 class="firstcontent">LIVING WITH AN ICON</h1>
+  <img src="assets/images/concept1.jpg">
+  <h2>YOUR WAIT IS OVER...
+  MEET THE NEW
+  MASTERPIECE FROM
+  LAMICITRA GROUP.</h2>
+  <p>Lamicitra Group menghadirkan masterpiece terbarunya sebagai ikon prestisius Surabaya yang menawarkan solusi utk keluarga urban yang menginginkan kenyamanan rumah landed sekaligus kemewahan vertical living di pusat kota.</p>
+  <img src="assets/images/concept2.png">
+  <img src="assets/images/concept3.jpg">
+  <h2>EXPERIENCE THE PRIVATE
+  GREEN LIFESTYLE
+  ON THE HEIGHT OF
+  CITY CENTER.
+  3 HA MASTERPLAN
+  WITH GREEN FACILITY.</h2>
+  <p>Berada di kawasan Darmo Hill yang legendaris, Darmo Hill Apartments ini dibangun diatas lahan seluas 3 Ha yang berfokus pada terciptanya gaya hidup modern dengan privasi tinggi dikelilingi tropical garden luas, meredefinisi arti kemewahan hidup yang sesungguhnya. </p>
+  <img src="assets/images/concept4.jpg">
+  <h2>BREATHTAKING &
+  LUXURIOUS INTERIORS.</h2>
+  <p>Kemewahan Darmo Hill Apartments dapat dirasakan sejak anda memasuki grand entrance lobby yang elegan dan dibangun dengan standar kemewahan yang tinggi.
+  </p>
+  <img src="assets/images/concept5.jpg">
+  <img src="assets/images/concept6.jpg">
+  <div class="bottomspace"></div>
+</ion-scroll>
+
+<div class="footer" ion-fixed>
+    <div class="tabbuttons">
+      <button class="tabbutton" ion-button clear (click)="openPage(pages.menus.items[1])">
+        <img src="assets/images/butconceptbold.png">
+      </button>
+      <button class="tabbutton" ion-button clear (click)="openPage(pages.menus.items[2])">
+        <img src="assets/images/buttowers.png">
+      </button>
+      <button class="tabbutton" ion-button clear (click)="openPage(pages.menus.items[3])">
+        <img src="assets/images/butfacilities.png">
+      </button>
+      <button class="tabbutton" ion-button clear (click)="pushPage(pages.menus.items[4])">
+        <img src="assets/images/butgallery.png">
+      </button>
+  </div>
+</div>

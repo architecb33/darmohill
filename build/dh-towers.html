@@ -1,0 +1,31 @@
+<div class="header" ion-fixed>
+  <button class="backbutton" (click)="openPageBack(pages.menus.items[0])" ion-button clear>
+    <img src="assets/images/bgback.jpg">
+  </button>
+</div>
+
+<ion-scroll scrollY="true">
+  <h1 class="firstcontent">
+  THE TOWERS
+  </h1>
+  <a (click)="pushPage(pages.menus.items[7])"><img class="imgmiddle" src="assets/images/rose1.png"></a>
+  <div class="bottomspace"></div>
+  <div class="bottomspace"></div>
+</ion-scroll>
+
+<div class="footer" ion-fixed>
+    <div class="tabbuttons">
+      <button class="tabbutton" ion-button clear (click)="openPage(pages.menus.items[1])">
+        <img src="assets/images/butconcept.png">
+      </button>
+      <button class="tabbutton" ion-button clear (click)="openPage(pages.menus.items[2])">
+        <img src="assets/images/buttowersbold.png">
+      </button>
+      <button class="tabbutton" ion-button clear (click)="openPage(pages.menus.items[3])">
+        <img src="assets/images/butfacilities.png">
+      </button>
+      <button class="tabbutton" ion-button clear (click)="pushPage(pages.menus.items[4])">
+        <img src="assets/images/butgallery.png">
+      </button>
+  </div>
+</div>
