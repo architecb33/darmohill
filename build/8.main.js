@@ -311,7 +311,7 @@ CustomPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPage */])({
         priority: 'high'
     }),
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/macintosh/Documents/devapp/darmo hill/src/pages/custom-pages/custom-page.html"*/'\n\n<ion-content [ngClass]="customClasses">\n\n<DynamicComponent\n    [componentTemplateUrl]="templateUrl"\n    [componentModules]="extraModules"\n    [componentInputData]="inputData"></DynamicComponent>\n\n</ion-content>\n'/*ion-inline-end:"/Users/macintosh/Documents/devapp/darmo hill/src/pages/custom-pages/custom-page.html"*/
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/Users/macintosh/Documents/devapp/darmo hill android/src/pages/custom-pages/custom-page.html"*/'\n\n<ion-content [ngClass]="customClasses">\n\n<DynamicComponent\n    [componentTemplateUrl]="templateUrl"\n    [componentModules]="extraModules"\n    [componentInputData]="inputData"></DynamicComponent>\n\n</ion-content>\n'/*ion-inline-end:"/Users/macintosh/Documents/devapp/darmo hill android/src/pages/custom-pages/custom-page.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */],
         __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* Nav */],
